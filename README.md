@@ -1,4 +1,5 @@
-# FinalProjectAngularRickAndMorty
+# Final Project For IT-STEP ACADEMY
+# Angular Rick And Morty
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
 
