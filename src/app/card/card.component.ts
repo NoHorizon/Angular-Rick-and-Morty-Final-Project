@@ -8,6 +8,7 @@ import { RickAndMortyApiService } from '../services/rick-and-morty.service';
 })
 export class CardComponent implements OnInit {
   characters: any[] = [];
+  selectedGender = '';
 
   constructor(private rickAndMortyApiService: RickAndMortyApiService) {}
 

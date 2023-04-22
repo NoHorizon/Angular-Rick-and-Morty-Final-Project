@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CardComponent } from './card/card.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     NavbarComponent,
     CardComponent,
     CarouselComponent,
-  ],
+      SearchComponent
+   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
