@@ -10,14 +10,18 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CardComponent } from './card/card.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { SearchComponent } from './search/search.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     NavbarComponent,
     CardComponent,
     CarouselComponent,
-      SearchComponent
+    SearchComponent,
+    AboutusComponent,
+      HomeComponent
    ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],

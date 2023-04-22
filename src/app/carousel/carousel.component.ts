@@ -12,10 +12,10 @@ export class CarouselComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.fetchCharacters();
+    this.getCharacters();
   }
 
-  fetchCharacters(): void {
+  getCharacters(): void {
     this.http
       .get('https://rickandmortyapi.com/api/character')
       .subscribe((response: any) => {
