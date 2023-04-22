@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { RickAndMortyApiService } from '../services/rick-and-morty.service';
 
 @Component({
   selector: 'app-carousel',
@@ -9,19 +9,17 @@ import { HttpClient } from '@angular/common/http';
 export class CarouselComponent implements OnInit {
   characters: any[] = [];
 
-  constructor(private http: HttpClient) {}
+  constructor(private rickAndMortyApiService: RickAndMortyApiService) {}
 
   ngOnInit(): void {
     this.getCharacters();
   }
 
   getCharacters(): void {
-    this.http
-      .get('https://rickandmortyapi.com/api/character')
-      .subscribe((response: any) => {
-        this.characters = response.results;
-        this.shuffleArray(this.characters);
-      });
+    this.rickAndMortyApiService.getAllCharacters().subscribe((data: any) => {
+      this.characters = data.results;
+      this.shuffleArray(this.characters);
+    });
   }
 
   shuffleArray(array: any[]): void {
