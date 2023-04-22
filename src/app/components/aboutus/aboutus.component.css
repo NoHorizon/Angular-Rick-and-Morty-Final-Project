@@ -1,0 +1,23 @@
+.pageCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.container {
+  max-width: 800px;
+}
+
+@media screen and (max-width: 762px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+.underline {
+  font-weight: bold;
+  font-style: italic;
+}
