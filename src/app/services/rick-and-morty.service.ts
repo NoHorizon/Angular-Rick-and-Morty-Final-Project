@@ -13,4 +13,8 @@ export class RickAndMortyApiService {
   getAllCharacters(): Observable<any> {
     return this.http.get(this.apiUrl);
   }
+
+  getCharacterByName(name: string): Observable<any> {
+    return this.http.get(`${this.apiUrl}/?name=${name}`);
+  }
 }

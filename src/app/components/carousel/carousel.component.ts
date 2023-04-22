@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RickAndMortyApiService } from '../services/rick-and-morty.service';
+import { RickAndMortyApiService } from '../../services/rick-and-morty.service';
 
 @Component({
   selector: 'app-carousel',

@@ -25,7 +25,12 @@
           <a class="nav-link about" routerLink="/aboutus">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link charinfo disabled">Character Full Info</a>
+          <a
+            class="nav-link charinfo"
+            [routerLink]="['/alters']"
+            [queryParams]="{ name: firstName }"
+            >Character Full Info</a
+          >
         </li>
       </ul>
     </div>

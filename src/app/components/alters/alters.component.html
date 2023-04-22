@@ -13,7 +13,12 @@
             {{ character.species }} - {{ character.gender }} -
             {{ character.status }}
           </p>
-          <a href="#" class="btn btn-dark">Show Alters</a>
+          <a
+            class="btn btn-dark"
+            [routerLink]="['/alters']"
+            [queryParams]="{ name: character.name.split(' ')[0] }"
+            >Show Alters</a
+          >
         </div>
       </div>
     </div>
