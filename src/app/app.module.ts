@@ -9,7 +9,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CardComponent } from './components/card/card.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
-import { SearchComponent } from './components/search/search.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { HomeComponent } from './components/home/home.component';
 import { AltersComponent } from './components/alters/alters.component';
@@ -20,10 +19,9 @@ import { AltersComponent } from './components/alters/alters.component';
     NavbarComponent,
     CardComponent,
     CarouselComponent,
-    SearchComponent,
     AboutusComponent,
     HomeComponent,
-      AltersComponent
+    AltersComponent
    ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
