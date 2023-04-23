@@ -1,4 +1,4 @@
-<form (submit)="filterCharacters()">
+<form>
   <label for="name">Name:</label>
   <input
     type="text"
@@ -6,15 +6,20 @@
     name="name"
     placeholder="Enter the name"
     [(ngModel)]="name"
+    (ngModelChange)="filterCharacters()"
   />
 
-  <select id="gender" name="gender" [(ngModel)]="gender">
+  <select
+    id="gender"
+    name="gender"
+    [(ngModel)]="gender"
+    (ngModelChange)="filterCharacters()"
+  >
     <option value="All genders">All genders</option>
     <option value="Male">Male</option>
     <option value="Female">Female</option>
     <option value="unknown">Unknown</option>
   </select>
-  <button type="submit" class="searchBtn">Search</button>
 </form>
 
 <div class="container mt-4">
