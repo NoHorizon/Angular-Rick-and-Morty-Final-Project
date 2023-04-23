@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CardComponent } from './components/card/card.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
-import { AboutusComponent } from './components/aboutus/aboutus.component';
+import { AboutprojectComponent } from './components/aboutproject/aboutproject.component';
 import { HomeComponent } from './components/home/home.component';
 import { AltersComponent } from './components/alters/alters.component';
 
@@ -19,10 +19,10 @@ import { AltersComponent } from './components/alters/alters.component';
     NavbarComponent,
     CardComponent,
     CarouselComponent,
-    AboutusComponent,
+    AboutprojectComponent,
     HomeComponent,
-    AltersComponent
-   ],
+    AltersComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
