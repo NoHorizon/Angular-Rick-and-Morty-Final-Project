@@ -1,13 +1,3 @@
-# Final Project For IT-STEP ACADEMY
-
-# Angular Rick And Morty
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
 # A little about my final project: Building a dynamic website with Angular
 
 # This is my final project for IT-STEP Academy 6-month Front-End Course.
@@ -23,3 +13,10 @@ Overall, my Angular project about "Rick and Morty" showcases my skills in creati
 By breaking the text into smaller paragraphs and adding some whitespace, it's easier for readers to follow the flow of information and understand the different components of the project.
 
 I would like to express my gratitude to my instructor, Beka Baghaturia, for his expertise and guidance throughout this 6-month Front-End Course. His dedication to teaching us the latest technologies and tools in front-end development has been invaluable to completing this project. Thank you, Beka, for being a true professional in your field.
+
+
+# Angular Rick And Morty
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
