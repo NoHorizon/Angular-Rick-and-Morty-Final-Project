@@ -1,5 +1,7 @@
 # A little about my final project: Building a dynamic website with Angular
 
+# Netlify link: https://angular-rick-and-morty-project.netlify.app/home
+
 # This is my final project for `IT-STEP Academy 6-month Front-End Course`.
 
 I would like to express my gratitude to my instructor, `Beka Baghaturia`, for his expertise and guidance throughout this 6-month Front-End Course. His dedication to teaching us the latest technologies and tools in front-end development has been invaluable to completing this project. Thank you, `Beka`, for being a true professional in your field.
@@ -13,7 +15,6 @@ One of these components is a card component that displays information about a ch
 Overall, my Angular project about "Rick and Morty" showcases my skills in creating dynamic and responsive web applications using the latest technologies and tools. I hope that my website provides an enjoyable and informative experience for fans of the show and users alike.
 
 By breaking the text into smaller paragraphs and adding some whitespace, it's easier for readers to follow the flow of information and understand the different components of the project.
-
 
 # Angular Rick And Morty
 
