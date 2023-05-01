@@ -1,6 +1,6 @@
 # A little about my final project: Building a dynamic website with Angular
 
-# Netlify link: https://angular-rick-and-morty-project.netlify.app/home
+# Netlify link: https://angular-rick-and-morty-project.netlify.app
 
 # This is my final project for `IT-STEP Academy 6-month Front-End Course`.
 
